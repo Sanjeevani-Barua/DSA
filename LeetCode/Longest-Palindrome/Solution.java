@@ -1,0 +1,1 @@
+        return min(len(s), sum(f & ~1 for f in Counter(s).values()) + 1)
